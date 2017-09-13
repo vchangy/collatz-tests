@@ -16,8 +16,8 @@ FILES2 :=           \
     TestCollatz.out \
     TestCollatz.py  \
     .travis.yml                           
-#    collatz-tests/GitHubID-RunCollatz.in  \
-#    collatz-tests/GitHubID-RunCollatz.out \
+#    collatz-tests/vchangy-RunCollatz.in  \
+#    collatz-tests/vchangy-RunCollatz.out \
 
 ifeq ($(shell uname), Darwin)          # Apple
     PYTHON   := python3
@@ -33,7 +33,7 @@ else ifeq ($(CI), true)                # Travis CI
     MYPY     := mypy
     PYLINT   := pylint
     COVERAGE := coverage-3.5
-    PYDOC    := pydoc3.5
+    PYDOC    := pydoc3
     AUTOPEP8 := autopep8
 else ifeq ($(shell uname -p), unknown) # Docker
     PYTHON   := python3.5
