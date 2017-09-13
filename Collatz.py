@@ -52,18 +52,22 @@ def collatz_eval (i: int, j: int) -> int :
             if (max_per_thousand[index] > max):
                 max = max_per_thousand[index]
 
-        for num in itertools.chain(range(i, first_thousand + 1), range(last_thousand + 1, j)):
+        for num in itertools.chain(range(i, first_thousand + 1), range(last_thousand + 1, j + 1)):
             cycle_length = get_cycle_length(num)
             if (cycle_length > max):
                 max = cycle_length
     else:
-    	for num in range(i, j):
+    	for num in range(i, j + 1):
             cycle_length = get_cycle_length(num)
             if (cycle_length > max):
                 max = cycle_length
     return max
 
 def get_cycle_length (i: int) -> int :
+    """
+    i the integer to calculate cycle length for
+    return the cycle length
+    """
     original = i
     if original in cycle_lengths:
         return cycle_lengths[original]
