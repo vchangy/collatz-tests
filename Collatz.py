@@ -6,7 +6,6 @@
 # Glenn P. Downing
 # ----------------------------------
 
-from typing import IO, List
 import math
 import itertools
 
@@ -20,7 +19,7 @@ cycle_lengths = dict()
 # collatz_read
 # ------------
 
-def collatz_read (s: str) -> List[int] :
+def collatz_read (s) :
     """
     read two ints
     s a string
@@ -33,7 +32,7 @@ def collatz_read (s: str) -> List[int] :
 # collatz_eval
 # ------------
 
-def collatz_eval (i: int, j: int) -> int :
+def collatz_eval (i, j) :
     """
     i the beginning of the range, inclusive
     j the end       of the range, inclusive
@@ -65,7 +64,7 @@ def collatz_eval (i: int, j: int) -> int :
                 max = cycle_length
     return max
 
-def get_cycle_length (i: int) -> int :
+def get_cycle_length (i) :
     """
     i the integer to calculate cycle length for
     return the cycle length
@@ -89,7 +88,7 @@ def get_cycle_length (i: int) -> int :
 # collatz_print
 # -------------
 
-def collatz_print (w: IO[str], i: int, j: int, v: int) -> None :
+def collatz_print (w, i, j, v) :
     """
     print three ints
     w a writer
@@ -103,7 +102,7 @@ def collatz_print (w: IO[str], i: int, j: int, v: int) -> None :
 # collatz_solve
 # -------------
 
-def collatz_solve (r: IO[str], w: IO[str]) :
+def collatz_solve (r, w) :
     """
     r a reader
     w a writer

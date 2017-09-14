@@ -67,9 +67,6 @@ class TestCollatz (TestCase) :
     def test_eval_invalid_params_1 (self) :
         self.assertRaises(ValueError, lambda: collatz_eval(-1, 5))
 
-    def test_eval_invalid_params_2 (self) :
-        self.assertRaises(ValueError, lambda: collatz_eval(7, 5))
-
     # -----
     # get_cycle_length
     # -----
