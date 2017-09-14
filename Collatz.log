@@ -1,0 +1,59 @@
+commit 8f6d1face95e591dfc6ee9969f005031d46d06a0
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Wed Sep 13 17:34:25 2017 -0700
+
+    Remove type annotations and create documentation
+
+commit ca1974676a8bdd0e977a629af04a145be306f55a
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Wed Sep 13 17:23:03 2017 -0700
+
+    Allow j to be less than i
+
+commit 53f02a7fa7e19dadab8cf33ef702efd9220d7aff
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Wed Sep 13 15:10:54 2017 -0700
+
+    Fix range to include end integer
+
+commit 8ba209e446b1f75caa3f793fc839afbd4785d18c
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Wed Sep 13 14:22:52 2017 -0700
+
+    Add meta cache by thousands and lazy cache for previously computed cycle lengths
+
+commit a0e48ab9127790e74fc14b937b2d612e223b32fa
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Tue Sep 12 17:06:19 2017 -0700
+
+    Implement most basic functionality and add long range unit test
+
+commit 25afc0b3700a5edb3dac20307c23c2b50f4634a6
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Mon Sep 11 12:18:51 2017 -0700
+
+    Add separator to makefile
+
+commit 15cdc5d9fe507461542715b1db0d063d8717684e
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Mon Sep 11 12:14:41 2017 -0700
+
+    uncomment .travis.yml
+
+commit 9730cd63d84f79d976b1c7f8b3a40d54b7c02abd
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Mon Sep 11 10:58:25 2017 -0700
+
+    Add TravisCI configuration
+
+commit 46606d0750ddce15867768340a4f6d7eeebc6f67
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Mon Sep 11 09:56:19 2017 -0700
+
+    Copy public code repo files to private code repo
+
+commit 4a5bb6c74475b2bd8b3aa68b3390b0fa2acb3410
+Author: Vanessa Chang <vanessachang@utexas.edu>
+Date:   Sat Sep 9 12:01:11 2017 -0700
+
+    first commit
