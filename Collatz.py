@@ -43,7 +43,9 @@ def collatz_eval (i: int, j: int) -> int :
     if i < 1 or j < 1:
         raise ValueError("input values must be greater than 0.")
     if j < i:
-        raise ValueError("second value must be greater than first value.")
+        tmp = i
+        i = j
+        j = tmp
     max = 0
     if (j - i >= 1000):
         first_thousand = int(math.ceil((i - 1) / 1000.0)) * 1000
